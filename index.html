@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find The Number Game</title>
+    <link rel="stylesheet" href="./style.css">
+    
+</head>
+
+<body>
+    <!-- <h2>Guess The Number (1-100)</h2> -->
+    <h1 id="başlık">Guess the number(<span id="ilk_değer">1</span>-<span id="son_değer">100</span>)</h1>
+    <div class="inputs">
+        <input type="number" id="number" class="number">
+        <button type="submit" id="check" value="check" class="check">Check</button>
+    </div>
+    <div class="rabbit_image">
+        <img src="./image/rabbit.jpg" alt="Rabbit">
+    </div>
+    <div class="wizard_image">
+        <img src="./image/sihirbaz.png" alt="Wizard">
+    </div>
+    <p class="write"><b>Please write the number.</b> </p>
+    <!-- <p id="winner"></p> -->
+    <p id="winP">Number Of Attemps: <span class="winner" id="winner">10</span></p>
+    <div id="conclusion"></div>
+    <script src="./app.js"></script>
+</body>
+
+</html>

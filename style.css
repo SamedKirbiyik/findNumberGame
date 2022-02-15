@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(209, 154, 70);
+}
+#başlık{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.number{
+    background-color: bisque;
+    border-radius: 8px;
+    height: 30px;
+}
+.check{
+    background-color: rgb(201, 201, 124);
+    border-radius: 6px;
+    width: 50px;
+    height: 30px;
+}
+.inputs{
+    text-align: center;
+}
+.rabbit_image{
+    margin-top: 25px;
+    text-align: center;
+}
+.wizard_image{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+.write{
+    text-align: center;
+}
+#winner{
+    text-align: center;
+    margin-top: 30px;
+}
+#winP{
+    text-align: center;
+    margin-top: 30px;
+}
+#conclusion{
+    text-align: center;
+    margin-top: 30px;
+}
