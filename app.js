@@ -8,6 +8,7 @@ let lastValue = document.getElementById("son_değer");
 let randomNumber = Math.floor(Math.random() * 100) + 1;
 
 let count = 0;
+
 buttonCheck.addEventListener("click", () => {
     let userInput = findNumber.value;
     if (userInput < 1 || userInput > 100) {
@@ -42,7 +43,7 @@ buttonCheck.addEventListener("click", () => {
         count += 1
         // writeText.style.display ="none"
         writeText.innerHTML = ""
-        conclusion.innerText = "You Win!";
+        conclusion.innerText = "You succeeded,congratulations ";
         conclusion.style.color = "brown";
         conclusion.style.fontSize = "3rem";
         alert(`Tebrikler ${count} defa da bildiniz `);
